@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		5FB5B7CE2A82D7C5003DC2A0 /* LPRDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7CD2A82D7C5003DC2A0 /* LPRDemoAppApp.swift */; };
-		5FB5B7D02A82D7C5003DC2A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7CF2A82D7C5003DC2A0 /* ContentView.swift */; };
 		5FB5B7D22A82D7C6003DC2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB5B7D12A82D7C6003DC2A0 /* Assets.xcassets */; };
 		5FB5B7D52A82D7C6003DC2A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB5B7D42A82D7C6003DC2A0 /* Preview Assets.xcassets */; };
+		5FB5B7DC2A830FEB003DC2A0 /* AlertsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7DB2A830FEB003DC2A0 /* AlertsListView.swift */; };
+		5FB5B7DE2A83105E003DC2A0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7DD2A83105E003DC2A0 /* LocationManager.swift */; };
+		5FB5B7E52A83110F003DC2A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7E42A83110F003DC2A0 /* Constants.swift */; };
+		5FB5B7E82A831174003DC2A0 /* VehicleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7E72A831174003DC2A0 /* VehicleLocation.swift */; };
+		5FB5B7EA2A832073003DC2A0 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7E92A832073003DC2A0 /* AlertRow.swift */; };
+		5FB5B7EC2A83325E003DC2A0 /* PlateIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7EB2A83325E003DC2A0 /* PlateIcon.swift */; };
+		5FB5B7EE2A83362A003DC2A0 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B7ED2A83362A003DC2A0 /* MoreInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5FB5B7CA2A82D7C5003DC2A0 /* LPRDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPRDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB5B7CD2A82D7C5003DC2A0 /* LPRDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPRDemoAppApp.swift; sourceTree = "<group>"; };
-		5FB5B7CF2A82D7C5003DC2A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FB5B7D12A82D7C6003DC2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB5B7D42A82D7C6003DC2A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FB5B7DB2A830FEB003DC2A0 /* AlertsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsListView.swift; sourceTree = "<group>"; };
+		5FB5B7DD2A83105E003DC2A0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5FB5B7E42A83110F003DC2A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5FB5B7E72A831174003DC2A0 /* VehicleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleLocation.swift; sourceTree = "<group>"; };
+		5FB5B7E92A832073003DC2A0 /* AlertRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertRow.swift; sourceTree = "<group>"; };
+		5FB5B7EB2A83325E003DC2A0 /* PlateIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateIcon.swift; sourceTree = "<group>"; };
+		5FB5B7ED2A83362A003DC2A0 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +64,14 @@
 			isa = PBXGroup;
 			children = (
 				5FB5B7CD2A82D7C5003DC2A0 /* LPRDemoAppApp.swift */,
-				5FB5B7CF2A82D7C5003DC2A0 /* ContentView.swift */,
+				5FB5B7DB2A830FEB003DC2A0 /* AlertsListView.swift */,
+				5FB5B7DF2A831091003DC2A0 /* UIComponents */,
+				5FB5B7E62A83115E003DC2A0 /* Models */,
+				5FB5B7DD2A83105E003DC2A0 /* LocationManager.swift */,
+				5FB5B7E42A83110F003DC2A0 /* Constants.swift */,
 				5FB5B7D12A82D7C6003DC2A0 /* Assets.xcassets */,
 				5FB5B7D32A82D7C6003DC2A0 /* Preview Content */,
+				5FB5B7ED2A83362A003DC2A0 /* MoreInfoView.swift */,
 			);
 			path = LPRDemoApp;
 			sourceTree = "<group>";
@@ -65,6 +82,23 @@
 				5FB5B7D42A82D7C6003DC2A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FB5B7DF2A831091003DC2A0 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5FB5B7E92A832073003DC2A0 /* AlertRow.swift */,
+				5FB5B7EB2A83325E003DC2A0 /* PlateIcon.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		5FB5B7E62A83115E003DC2A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FB5B7E72A831174003DC2A0 /* VehicleLocation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB5B7D02A82D7C5003DC2A0 /* ContentView.swift in Sources */,
+				5FB5B7E82A831174003DC2A0 /* VehicleLocation.swift in Sources */,
+				5FB5B7EA2A832073003DC2A0 /* AlertRow.swift in Sources */,
+				5FB5B7DC2A830FEB003DC2A0 /* AlertsListView.swift in Sources */,
 				5FB5B7CE2A82D7C5003DC2A0 /* LPRDemoAppApp.swift in Sources */,
+				5FB5B7DE2A83105E003DC2A0 /* LocationManager.swift in Sources */,
+				5FB5B7EC2A83325E003DC2A0 /* PlateIcon.swift in Sources */,
+				5FB5B7E52A83110F003DC2A0 /* Constants.swift in Sources */,
+				5FB5B7EE2A83362A003DC2A0 /* MoreInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

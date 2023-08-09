@@ -11,7 +11,7 @@ import SwiftUI
 struct LPRDemoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AlertsListView()
         }
     }
 }
